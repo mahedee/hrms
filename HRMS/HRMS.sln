@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.FrontEnd", "HRMS.FrontEnd\HRMS.FrontEnd.csproj", "{4CC7B771-1E29-4FC8-AA54-643635CEA18C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.API", "HRMS.API\HRMS.API.csproj", "{508E3189-468F-4B72-AB42-C7FB2C7D24CC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A9E93635-C40D-47AD-A68E-818CFDE27A85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CC7B771-1E29-4FC8-AA54-643635CEA18C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC7B771-1E29-4FC8-AA54-643635CEA18C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC7B771-1E29-4FC8-AA54-643635CEA18C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC7B771-1E29-4FC8-AA54-643635CEA18C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508E3189-468F-4B72-AB42-C7FB2C7D24CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508E3189-468F-4B72-AB42-C7FB2C7D24CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508E3189-468F-4B72-AB42-C7FB2C7D24CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508E3189-468F-4B72-AB42-C7FB2C7D24CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9E93635-C40D-47AD-A68E-818CFDE27A85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E93635-C40D-47AD-A68E-818CFDE27A85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E93635-C40D-47AD-A68E-818CFDE27A85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E93635-C40D-47AD-A68E-818CFDE27A85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23535604-3212-402B-991F-7A26591FF0A8}
+	EndGlobalSection
+EndGlobal

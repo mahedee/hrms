@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  hrms.frontend:
+    image: ${DOCKER_REGISTRY-}hrmsfrontend
+    build:
+      context: .
+      dockerfile: HRMS.FrontEnd/Dockerfile
+
+  hrms.api:
+    image: ${DOCKER_REGISTRY-}hrmsapi
+    build:
+      context: .
+      dockerfile: HRMS.API/Dockerfile
+
